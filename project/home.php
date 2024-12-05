@@ -28,6 +28,7 @@ if (!isset($_SESSION['valid_user'])) {
         <li><a href="books.php">Manage Books</a></li>
         <li><a href="students.php">Manage Students</a></li>
         <li><a href="checkoutsdata.php">Checkouts and Returns</a></li>
+        <li><a href="changepassword.php">Change Password</a></li>
         <li><a href="logout.php">Log Out</a></li>
     </ul>
 </body>
