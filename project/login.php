@@ -77,7 +77,5 @@ if (isset($_POST['userid']) && isset($_POST['password'])) {
         </p>
         <button type="submit" name="login">Login</button>
     </form>
-
-    <p><a href="changepassword.php">Change Password</a></p>
 </body>
 </html>
