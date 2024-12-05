@@ -58,6 +58,7 @@ $result = $conn->query($sql);
             <th>Name</th>
             <th>Phone</th>
             <th>Address</th>
+            <th>Address</th>
             <th>Status</th>
             <th>Actions</th>
         </tr>
@@ -72,6 +73,7 @@ $result = $conn->query($sql);
                 echo "<td>".htmlspecialchars($row['name'])."</td>";
                 echo "<td>".htmlspecialchars($row['phone'])."</td>";
                 echo "<td>".htmlspecialchars($row['address'])."</td>";
+                echo "<td>".htmlspecialchars($row['active'])."</td>";
 
                 // Status dropdown form
                 echo "<td>";
