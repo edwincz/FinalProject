@@ -1,4 +1,4 @@
-<?php
+<?php 
 session_start();
 
 if (!isset($_SESSION['valid_user'])) {
@@ -12,12 +12,34 @@ if (!isset($_SESSION['valid_user'])) {
 <head>
     <title>Library Application - Home</title>
     <style type="text/css">
-        /* Your CSS styles */
+        body {
+            background-color: blue;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        h1, p {
+            text-align: center;
+        }
         ul {
             list-style-type: none;
+            padding: 0;
         }
         li {
-            margin: 5px 0;
+            text-align: center;
+            margin: 10px 0;
+        }
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50; /* Green button color */
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        a:hover {
+            background-color: #45a049; /* Darker green on hover */
         }
     </style>
 </head>
