@@ -85,6 +85,7 @@ $result = $conn->query($query);
     <ul>
     <br><a href="checkout.php">Checkout a book</a><br>
     <br><a href="return.php">Return a book</a><br>
+    <br><a href="bookhistory.php">View books history</a><br>
     <br><a href="home.php">Back to Home</a><br>
     </ul>
 </body>
